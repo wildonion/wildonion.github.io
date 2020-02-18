@@ -7,11 +7,19 @@
                 <p>Any questions? Let me help you.</p>
             </div>
         <div class="col-lg-2 col-lg-offset-2 text-center">
-            <a href="#">
-                <i class="fa fa-phone fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p>{{ site.phone_number }}</p>
+            <a href="https://t.me/{{site.username}}">
+
+                <i class="fa fa-telegram fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p>{{ site.username }}</p>
             </a>
         </div>
+           <div class="col-lg-2 col-lg-offset-2 text-center">
+            <a href="https://t.me/{{site.username}}">
+
+                <i class="fa fa-whatsapp fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p>{{ site.username }}</p>
+            </a>
+        </div> 
         <div class="col-lg-2 col-lg-offset-1 text-center">
             <a href="mailto:{{ site.email }}">
             <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
